@@ -9,11 +9,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidTemplate">
+        android:theme="@style/Theme.Exoplanets">
         <activity
-            android:name=".ui.TemplateActivity"
+            android:name=".ui.ModularNavActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.AndroidTemplate.NoActionBar">
+            android:theme="@style/Theme.Exoplanets.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

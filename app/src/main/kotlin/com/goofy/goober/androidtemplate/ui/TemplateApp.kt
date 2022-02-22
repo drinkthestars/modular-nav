@@ -23,20 +23,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
 
 @Composable
-fun TemplateApp(
-    templateData: String,
+fun Spacecraft(
+    data: String,
     modifier: Modifier = Modifier
 ) {
     Surface(modifier = modifier.fillMaxSize()) {
-        TemplateContent(templateData)
+        TemplateContent(data)
     }
 }
 
-@OptIn(ExperimentalCoilApi::class)
 @Composable
 private fun TemplateContent(
     templateData: String,

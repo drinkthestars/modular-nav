@@ -54,6 +54,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":nav"))
+    implementation(project(":sol-system"))
+    implementation(project(":gliese667c-system"))
+    implementation(project(":trappist1-system"))
+
     implementation(Libs.material)
     implementation(Libs.AndroidX.coreKtx)
 
@@ -67,6 +72,8 @@ dependencies {
     implementation(Libs.AndroidX.Compose.tooling)
     implementation(Libs.AndroidX.Compose.ui)
     implementation(Libs.AndroidX.Compose.uiUtil)
+    implementation(Libs.AndroidX.Hilt.navigationCompose)
+    implementation(Libs.AndroidX.Navigation.compose)
     implementation(Libs.Hilt.android)
     implementation(Libs.AndroidX.Lifecycle.viewModelCompose)
 

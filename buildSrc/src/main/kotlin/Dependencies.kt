@@ -61,7 +61,7 @@ object Libs {
 
         object Hilt {
             private const val version = "1.0.0"
-            const val navigationCompose = "androidx.hilt:hilt-navigation-compose:$"
+            const val navigationCompose = "androidx.hilt:hilt-navigation-compose:$version"
         }
 
         object Lifecycle {
@@ -90,7 +90,7 @@ object Libs {
     }
 
     object Hilt {
-        private const val version = "2.40"
+        private const val version = "2.41"
         const val gradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:$version"
         const val android = "com.google.dagger:hilt-android:$version"
         const val kaptCompiler = "com.google.dagger:hilt-android-compiler:$version"
