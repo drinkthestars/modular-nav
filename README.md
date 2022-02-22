@@ -3,4 +3,4 @@
 ![build](https://github.com/drinkthestars/android-template/actions/workflows/android.yml/badge.svg)
 
 
-A template for Android projects using Kotlin DSL build files & Jetpack Compose.
+🏗️ Cataloging planets/solar systems | Experimenting with decentralized Jetpack Compose navigation
